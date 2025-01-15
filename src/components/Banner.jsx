@@ -5,7 +5,7 @@ import logo from '../assets/profile-pic.jpg';
 
 function Banner() {
   return (
-    <div className="banner-container">
+    <div id="about" className="banner-container">
       <div className="content">
         <div className="text-section">
           <h1 className="title">

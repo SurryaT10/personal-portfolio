@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Container, Nav, Navbar  } from 'react-bootstrap'
 import { motion } from "framer-motion";
-import logo from '../assets/hi.png'
+import hiLogo from '../assets/hi.png'
+import expertiseLogo from '../assets/expertise.png'
 import '../css/navbar.css'
 
 function Navigation() {
@@ -11,6 +12,12 @@ function Navigation() {
     setActiveKey(name);
   }
 
+  const getLogo = () => {
+    if (activeKey === "#about") return hiLogo;
+    if (activeKey === "#expertise") return expertiseLogo;
+    return hiLogo;
+  };
+
   return (
     <Navbar expand="lg" fixed="top" color="#86C232">
         <Container style={{ width: '100%' }}>
@@ -19,7 +26,7 @@ function Navigation() {
             href="#about">
               <motion.img
                 className="logo"
-                src={logo}
+                src={getLogo()}
                 alt="Logo"
                 animate={{
                   rotate: [0, 15, -15, 0], // Keyframes for rotation

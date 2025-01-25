@@ -3,6 +3,7 @@ import { motion, useScroll } from "motion/react"
 import Navbar from './components/Navigation'
 import Banner from './components/Banner'
 import Expertise from './components/Expertise'
+import Projects from './components/Projects'
 
 function App() {
   const { scrollYProgress } = useScroll()
@@ -24,6 +25,7 @@ function App() {
       <Navbar />
       <Banner />
       <Expertise />
+      <Projects />
     </>
   )
 }

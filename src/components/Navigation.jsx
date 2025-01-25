@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { Container, Nav, Navbar  } from 'react-bootstrap'
 import { motion } from "framer-motion";
-import hiLogo from '../assets/hi.png'
-import expertiseLogo from '../assets/expertise.png'
+import hiLogo from '../assets/logo/hi.png'
+import expertiseLogo from '../assets/logo/expertise.png'
+import workLogo from '../assets/logo/work.png'
 import '../css/navbar.css'
 
 function Navigation() {
@@ -15,6 +16,7 @@ function Navigation() {
   const getLogo = () => {
     if (activeKey === "#about") return hiLogo;
     if (activeKey === "#expertise") return expertiseLogo;
+    if (activeKey === "#projects") return workLogo;
     return hiLogo;
   };
 

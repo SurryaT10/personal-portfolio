@@ -4,7 +4,7 @@ import logo from "../assets/profile-pic.jpg";
 
 function Banner() {
   return (
-    <div className="banner-container">
+    <div id="about" className="banner-container">
       <motion.div
         className="content"
         initial={{ opacity: 0, scale: 0.9 }}

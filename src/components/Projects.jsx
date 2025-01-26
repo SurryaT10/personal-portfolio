@@ -4,6 +4,7 @@ import compressly from "../assets/project/compressly.png";
 import premierLeaguePrediction from "../assets/project/premierleagueprediction.png";
 import mechHugo from "../assets/project/mechhugo.png"
 import cakephpJsonAPI from "../assets/project/cakephpjsonapi.png";
+import fashionGAN from "../assets/project/fashiongan.png";
 import "../css/projects.css";
 
 const projects = [
@@ -18,7 +19,7 @@ const projects = [
     title: "Fashion GAN Model",
     description:
       "Implemented a Generative Adversarial Network (GAN) trained on the Fashion-MNIST dataset to generate high-quality, realistic fashion images. Optimized training stability using techniques like gradient penalty and adaptive learning rate.",
-    image: "https://via.placeholder.com/300x200",
+    image: fashionGAN,
     link: "https://github.com/SurryaT10/Fashion_GAN",
   },
   {

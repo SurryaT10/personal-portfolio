@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import { Container, Nav, Navbar  } from 'react-bootstrap'
+import { useState } from "react"
+import { Container, Nav, Navbar  } from "react-bootstrap"
 import { motion } from "framer-motion";
-import hiLogo from '../assets/logo/hi.png'
-import expertiseLogo from '../assets/logo/expertise.png'
-import workLogo from '../assets/logo/work.png'
-import '../css/navbar.css'
+import hiLogo from "../assets/logo/hi.png"
+import expertiseLogo from "../assets/logo/expertise.png"
+import workLogo from "../assets/logo/work.png"
+import greetingLogo from "../assets/logo/greeting.png"
+import "../css/navbar.css"
 
 function Navigation() {
-  const [activeKey, setActiveKey] = useState('#about');
+  const [activeKey, setActiveKey] = useState("#about");
 
   const setActive = (name) => {
     setActiveKey(name);
@@ -17,12 +18,14 @@ function Navigation() {
     if (activeKey === "#about") return hiLogo;
     if (activeKey === "#expertise") return expertiseLogo;
     if (activeKey === "#projects") return workLogo;
+    if (activeKey === "#contact") return greetingLogo;
+
     return hiLogo;
   };
 
   return (
     <Navbar expand="lg" fixed="top" color="#86C232">
-        <Container style={{ width: '100%' }}>
+        <Container style={{ width: "100%" }}>
           <Navbar.Brand 
             onClick={() => setActive("#about")} 
             href="#about">

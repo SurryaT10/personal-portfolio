@@ -1,0 +1,63 @@
+.contact-container {
+    text-align: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.contact-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+  
+.contact-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #e0f7fa;
+}
+  
+.contact-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.contact-link {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+  
+.contact-link.github {
+    background: #333;
+}
+  
+.contact-link.linkedin {
+    background: #0077b5;
+}
+  
+.contact-link.instagram {
+    background: #e4405f;
+}
+  
+.contact-link:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+  
+.contact-link:active {
+    transform: translateY(2px);
+}
+  

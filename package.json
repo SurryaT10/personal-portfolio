@@ -2,11 +2,11 @@
   "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://SurryaT10.github.io/SurryaThangamuthu",
+  "homepage": "https://SurryaT10.github.io/personal-portfolio",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

@@ -12,7 +12,7 @@ import Modal from "./Model";
 
 const projects = [
   {
-    title: "File Compression Tool",
+    title: "Compressly",
     description:
       <>
         Developed an advanced compression tool achieving a <span className="highlight">70% reduction</span> in file size by leveraging <span className="highlight">optimized algorithms</span>, ensuring minimal structural degradation and high similarity preservation.

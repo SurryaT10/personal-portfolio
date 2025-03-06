@@ -54,7 +54,7 @@ const projects = [
         Enhanced the <span className="highlight">josbier JSON API</span> package to support <span className="highlight">PHP 8</span> and <span className="highlight">CakePHP 3.4</span>. Refactored legacy code and resolved compatibility issues to improve <span className="highlight">API performance</span> and maintainability.
       </>,
     image: cakephpJsonAPI,
-    link: "https://github.com/SurryaT10/cakephp40-json-api",
+    link: "https://github.com/ZoomRx/cakephp-json-api",
   },
   {
     title: "Chess180 - AI-Powered Chess Strategy Trainer",

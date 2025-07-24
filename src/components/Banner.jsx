@@ -40,10 +40,11 @@ function Banner() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            I&apos;m passionate about building <span className="highlight">AI-powered backend systems</span>, 
-            crafting <span className="highlight">Machine Learning</span> applications, and delivering scalable, 
-            efficient <span className="highlight">Fullstack solutions</span>. With a focus on creating impactful and reliable tools, 
-            I thrive at the intersection of data, technology, and innovation.
+            I&apos;m a <span className="highlight">Machine Learning Engineer</span> specializing in <span className="highlight">NLP</span>, <span className="highlight">Generative AI</span>, and <span className="highlight">LLM-powered applications</span>. I&aps;ve built everything from <span className="highlight">RAG pipelines</span> and document understanding tools to scalable APIs that bring models to life.
+
+            My stack includes <span className="highlight">PyTorch</span>, <span className="highlight">scikit-learn</span>, <span className="highlight">Hugging Face</span>, <span className="highlight">LangChain</span>, <span className="highlight">FastAPI</span>, and <span className="highlight">Docker</span>. I’m all about taking ideas from prototype to production-fast.
+
+            I recently completed my <span className="highlight">Master’s in Computer Science</span> and thrive in fast-paced teams where AI meets engineering. If you&apos;re building in this space, let&apos;s connect.
           </motion.p>
 
           <motion.div

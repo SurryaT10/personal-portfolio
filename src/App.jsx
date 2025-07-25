@@ -5,6 +5,7 @@ import Banner from './components/Banner'
 import Expertise from './components/Expertise'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Experience from './components/Experience'
 
 function App() {
   const { scrollYProgress } = useScroll()
@@ -25,6 +26,7 @@ function App() {
       />
       <Navbar />
       <Banner />
+      <Experience />
       <Expertise />
       <Projects />
       <Contact />

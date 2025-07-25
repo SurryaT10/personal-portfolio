@@ -5,6 +5,7 @@ import hiLogo from "../assets/logo/hi.png";
 import expertiseLogo from "../assets/logo/expertise.png";
 import workLogo from "../assets/logo/work.png";
 import greetingLogo from "../assets/logo/greeting.png";
+import experienceLogo from "../assets/logo/experience.png";
 import "../css/navbar.css";
 
 function Navigation() {
@@ -21,6 +22,7 @@ function Navigation() {
     if (activeKey === "#expertise") return expertiseLogo;
     if (activeKey === "#projects") return workLogo;
     if (activeKey === "#contact") return greetingLogo;
+    if (activeKey === "#experience") return experienceLogo;
     return hiLogo;
   };
 
@@ -51,6 +53,9 @@ function Navigation() {
             <Nav activeKey={activeKey}>
               <Nav.Link onClick={() => setActive("#about")} href="#about">
                 About
+              </Nav.Link>
+              <Nav.Link onClick={() => setActive("#experience")} href="#experience">
+                Experience
               </Nav.Link>
               <Nav.Link onClick={() => setActive("#expertise")} href="#expertise">
                 Expertise

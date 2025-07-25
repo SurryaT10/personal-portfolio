@@ -40,7 +40,7 @@ function Banner() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            I&apos;m a <span className="highlight">Machine Learning Engineer</span> specializing in <span className="highlight">NLP</span>, <span className="highlight">Generative AI</span>, and <span className="highlight">LLM-powered applications</span>. I&aps;ve built everything from <span className="highlight">RAG pipelines</span> and document understanding tools to scalable APIs that bring models to life.
+            I&apos;m a <span className="highlight">Machine Learning Engineer</span> specializing in <span className="highlight">NLP</span>, <span className="highlight">Generative AI</span>, and <span className="highlight">LLM-powered applications</span>. I&apos;ve built everything from <span className="highlight">RAG pipelines</span> and document understanding tools to scalable APIs that bring models to life.
 
             My stack includes <span className="highlight">PyTorch</span>, <span className="highlight">scikit-learn</span>, <span className="highlight">Hugging Face</span>, <span className="highlight">LangChain</span>, <span className="highlight">FastAPI</span>, and <span className="highlight">Docker</span>. I’m all about taking ideas from prototype to production-fast.
 
@@ -60,6 +60,17 @@ function Banner() {
               whileTap={{ scale: 0.95 }}
             >
               Let&apos;s Build Something Amazing 🚀
+            </motion.a>
+
+            <motion.a
+              href="https://drive.google.com/file/d/19BencJiRUzitktgl114zT-IlKMxNjj-E/view?usp=drive_link"
+              className="cta-button resume-button"
+              download
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              style={{ marginLeft: '12px' }}
+            >
+              📄 Download Resume
             </motion.a>
           </motion.div>
         </div>

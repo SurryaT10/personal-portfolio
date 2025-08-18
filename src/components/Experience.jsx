@@ -16,9 +16,10 @@ const experienceData = [
     role: "AI Research Intern",
     duration: "Aug 2023 – May 2025",
     responsibilities: [
-      "Developed RAG pipelines using LangChain, Pinecone, and GPT-3.5.",
-      "Used LangGraph for structured multi-step LLM workflows.",
-      "Mentored students in ML, NLP, and Python development."
+      "Developed and deployed a Retrieval-Augmented Generation (RAG) pipeline using LangChain, Pinecone, and GPT-3.5-turbo, supporting contextual academic queries from a proprietary knowledge base.",
+      "Fine-tuned LLM prompts and engineered embeddings using OpenAI APIs, achieving a 95% accuracy rate in question-answering across 1K+ samples.",
+      "Orchestrated GenAI components using LangGraph, implementing LLM tool-calling workflows with structured routing and context preservation.",
+      "Conducted tutorials and mentorship in ML, NLP, Python, and data preprocessing using Scikit-learn, NumPy, and Pandas."
     ],
   },
   {
@@ -26,9 +27,11 @@ const experienceData = [
     role: "Machine Learning Engineer",
     duration: "Jan 2022 – Aug 2023",
     responsibilities: [
-      "Built document intelligence pipelines using FAISS and OpenAI embeddings, boosting throughput by 70%.",
-      "Deployed Whisper-based speech-to-text model for medical calls, reducing turnaround by 60%.",
-      "Created contextual search engines and integrated ML APIs in Dockerized microservices."
+      "Created a document intelligence pipeline for extracting semantic snippets from medical transcripts using FAISS, OpenAI embeddings, and Elasticsearch, improving manual review throughput by 70%.",
+      "Researched and deployed a contextual search engine for internal legal/medical teams using PyTorch and pretrained models from Hugging Face.",
+      "Spearheaded the development of a speech-to-text pipeline using OpenAI Whisper to transcribe physician calls. This solution replaced manual note-taking, reducing transcription turnaround time by 60% and increasing review accuracy.",
+      "Designed and integrated ML APIs into a modular microservices architecture, containerized with Docker and hosted on AWS.",
+      "Led version upgrades across legacy systems, maintaining robust unit/integration tests via Postman and Mocha for over 1000 endpoints."
     ],
   },
 ];

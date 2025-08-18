@@ -63,7 +63,7 @@ function Banner() {
             </motion.a>
 
             <motion.a
-              href="https://drive.google.com/file/d/19BencJiRUzitktgl114zT-IlKMxNjj-E/view?usp=drive_link"
+              href="https://drive.google.com/file/d/19BencJiRUzitktgl114zT-IlKMxNjj-E/view?usp=sharing"
               className="cta-button resume-button"
               download
               whileHover={{ scale: 1.05 }}

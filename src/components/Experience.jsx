@@ -4,13 +4,11 @@ import "../css/experience.css";
 const experienceData = [
   {
     company: "SellWizr",
-    role: "AI Engineer Intern",
+    role: "AI Engineer",
     duration: "July 2025 – Present",
     responsibilities: [
-      "Working on NLP models for speech-to-text, summarization, and sentiment analysis of sales calls.",
-      "Planning to fine-tune LLMs (OpenAI, Mistral) for objection handling and personalized email generation.",
-      "Prototyping with FastAPI and React to integrate AI features into CRM platforms.",
-      "Designing algorithms to extract buyer signals and score leads from conversation data."
+      "Fine-tuned Gemma-3n-E4B with Unsloth/PEFT LoRA adapters on CRM-specific JSONL data; applied custom chat templates for structured I/O, enabling accurate domain-adapted Text-to-SQL generation across CRM queries.","Designed and implemented a Text-to-SQL evaluation pipeline for the Spider2 benchmark: loaded fine-tuned LoRA adapters with AutoPeftModelForCausalLM, dynamically injected database schemas into prompts, and enforced SQL-only outputs, enabling large-scale benchmark evaluation.",
+      "Integrated MemoRAG into the Text-to-SQL pipeline by embedding CRM schemas with BGE-M3 and leveraging memory beacons for schema retrieval; improved query-time schema selection and reduced irrelevant context, boosting valid SQL generation accuracy."
     ],
   },
   {
